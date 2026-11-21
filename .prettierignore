@@ -1,0 +1,25 @@
+# Build outputs
+.next
+out
+dist
+build
+
+# Dependencies
+node_modules
+
+# Lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Generated / static
+public
+next-env.d.ts
+
+# Environment
+.env
+.env.local
+.env*.local
+
+# Coverage
+coverage   

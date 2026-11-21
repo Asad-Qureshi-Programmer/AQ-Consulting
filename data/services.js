@@ -1,8 +1,82 @@
 export const services = [
-  { number: "01", category: "PLAN", title: "Programme design & planning", description: "Shape a strong programme from the first question to an implementation-ready plan.", deliverables: ["Needs assessment", "Theory of change", "Logical framework", "Budgets & workplans"], icon: "compass", tone: "moss" },
-  { number: "02", category: "FUND", title: "Proposal development", description: "Make the case for your work with clear, credible proposals built around evidence and community priorities.", deliverables: ["CSR proposals", "Concept notes", "Expressions of interest", "Donor reporting"], icon: "file", tone: "clay" },
-  { number: "03", category: "LEARN", title: "Monitoring, evaluation & learning", description: "Turn monitoring into a useful rhythm for reflection, adaptation and demonstrating meaningful outcomes.", deliverables: ["Indicator frameworks", "Monitoring plans", "Data quality reviews", "Learning workshops"], icon: "chart", tone: "blue" },
-  { number: "04", category: "SHARE", title: "Documentation & knowledge", description: "Capture what teams and communities are learning—and make it useful to partners and funders.", deliverables: ["Annual reports", "Case studies", "Success stories", "Knowledge products"], icon: "book", tone: "gold" },
-  { number: "05", category: "GROW", title: "Capacity building", description: "Practical, tailored learning that gives teams tools they can use as soon as they return to work.", deliverables: ["Proposal writing", "Project cycle management", "NGO leadership", "CSR readiness & AI"], icon: "people", tone: "rose" },
-  { number: "06", category: "ADVISE", title: "Technical advisory", description: "Bring field-informed expertise to the rural development challenges your programme is tackling.", deliverables: ["Livelihoods & agriculture", "Watershed & water security", "SHGs & FPOs", "Climate adaptation"], icon: "leaf", tone: "moss" },
+  {
+    number: '01',
+    category: 'PLAN',
+    title: 'Programme design & planning',
+    description:
+      'Shape a strong programme from the first question to an implementation-ready plan.',
+    deliverables: [
+      'Needs assessment',
+      'Theory of change',
+      'Logical framework',
+      'Budgets & workplans',
+    ],
+    icon: 'compass',
+    tone: 'moss',
+  },
+  {
+    number: '02',
+    category: 'FUND',
+    title: 'Proposal development',
+    description:
+      'Make the case for your work with clear, credible proposals built around evidence and community priorities.',
+    deliverables: ['CSR proposals', 'Concept notes', 'Expressions of interest', 'Donor reporting'],
+    icon: 'file',
+    tone: 'clay',
+  },
+  {
+    number: '03',
+    category: 'LEARN',
+    title: 'Monitoring, evaluation & learning',
+    description:
+      'Turn monitoring into a useful rhythm for reflection, adaptation and demonstrating meaningful outcomes.',
+    deliverables: [
+      'Indicator frameworks',
+      'Monitoring plans',
+      'Data quality reviews',
+      'Learning workshops',
+    ],
+    icon: 'chart',
+    tone: 'blue',
+  },
+  {
+    number: '04',
+    category: 'SHARE',
+    title: 'Documentation & knowledge',
+    description:
+      'Capture what teams and communities are learning—and make it useful to partners and funders.',
+    deliverables: ['Annual reports', 'Case studies', 'Success stories', 'Knowledge products'],
+    icon: 'book',
+    tone: 'gold',
+  },
+  {
+    number: '05',
+    category: 'GROW',
+    title: 'Capacity building',
+    description:
+      'Practical, tailored learning that gives teams tools they can use as soon as they return to work.',
+    deliverables: [
+      'Proposal writing',
+      'Project cycle management',
+      'NGO leadership',
+      'CSR readiness & AI',
+    ],
+    icon: 'people',
+    tone: 'rose',
+  },
+  {
+    number: '06',
+    category: 'ADVISE',
+    title: 'Technical advisory',
+    description:
+      'Bring field-informed expertise to the rural development challenges your programme is tackling.',
+    deliverables: [
+      'Livelihoods & agriculture',
+      'Watershed & water security',
+      'SHGs & FPOs',
+      'Climate adaptation',
+    ],
+    icon: 'leaf',
+    tone: 'moss',
+  },
 ]
